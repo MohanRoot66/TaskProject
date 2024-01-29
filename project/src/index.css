@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin-left: 9px;
+  
+}
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+.navbar {
+  list-style: none;
+  display: flex;
+  align-items: center; /* Vertical alignment in the center */
+}
+
+.item1 {
+  /* Add any additional styles for 'item1' here */
+  margin-left: 40px;
+}
+
+.item2 {
+  /* Add any additional styles for 'item2' here */
+  font-family:revert-layer;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+.item2 button {
+  display: block;
+  height: 25px;
+  width: 87px;
+  background-color:#c2bfff;
+  color: #837bff;
+  outline: none;
+  border: none;
+  padding: 2px;
+  margin-top: 8px;
+}
+
+.item3 {
+  margin-left: 659px;
+}
+
+
+.downarrow {
+  display: block;
+  font-size: small;
+    padding-top: 6px;
+    margin-left: 2px;
+}
+
+.container
+{
+  display: flex;
+}
+ 
+.sidebar 
+{
+    width: 631px;
+    height: 212px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.name
+{
+  display: block;
+  margin-top: 4px;
+  font-weight: 100;
+  margin-left: 0;
+}
+.below-text
+{
+  max-width: 425px;
+  padding-bottom: 9px;
+  margin-left: 74px; 
+}
+.link
+{
+  color: blue;
+  margin-top: 10px;
+  margin-left: 65px;
+  }
+
+.title
+{
+  margin-top: 10px;
+}
+
+.horizontal-line
+{
+  border-bottom: 1px solid transparent;
+  width: 50%; 
+  margin-top: 20px;
+}
+
+.stats
+{
+  margin-left: 109px;
+  margin-top: 15px;
+    height: 500px;
+    width: 1306px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.9); /* Adjust the shadow color and opacity */
+    background-color: #f8f8f8; 
+}
